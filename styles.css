@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0
+    box-sizing: border-box;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ 
+ 
+ 
+ ::root  {
+ 
+          --primaria:  #ec4709;
+ 
+          --secundaria: #6cc165;
+ 
+          --escuro: #d15b13;
+ 
+          --maisEscuro: #dc5905;
+ 
+         --cabecalho: #85929e;
+ 
+          --claro: #fe6400;
+          --claro2:#e1dfde;
+ 
+ 
+ 
+          --vidro:rgba(61, 36, 21, 0.1);
+     
+ }
+ body {
+     background-color:#e6600c;
+ 
+ 
+ }
+ .navegacao{
+         position: fixed;
+         top:0;
+         background:  rgba(172, 166, 161, 0.829);
+         width:100% ;
+         z-index: 100%;
+         padding: 1.5rem;
+ }
+ @media (max-width: 768px) {
+     .menu {
+         flex-direction: column;
+         gap: 1rem;
+         text-align: center;
+     }
+ }
+ .menu{
+         display: flex;
+         justify-content: center;
+         list-style: none;
+         gap: 3rem;
+         cursor: pointer;
+ 
+ }
+ 
+ .menu-link{
+        text-decoration:none;
+        color: #156e0c;
+        font-weight: 500;
+        position: relative;
+        padding: 0.4rem 0;
+ 
+ 
+ }     
+ .menu-link::after{
+        content:'';
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: var(--secundaria);
+        transition: width 0.5s ease;
+ 
+ } 
+ .menu-link:hover::after{
+        width: 100%;
+        
+ 
+ }
+ .cabecalho{
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+ 
+ 
+ }
+ .fotodecapa{
+ 
+    width: 100%;
+    max-width: 1800px;
+    height: auto;
+ }
+
+
+ h1{     font-size: 3.5}
+ 
+ 
+ .titulo-capa{
+     font-size:3.5rem;
+     color: #e1dfde
+     
+     
+     
+     
+ }
+
+ .Quem-titulos{
+
+    font-size: 5.0rem;
+     color:#e1dfde;
+ }
+.polimix-imagens1{
+    width: 100%;
+    max-width: 1800px;
+    height: auto;
+
+
+}
+.para30{
+    font-size: 2.0rem;
+    color:#ece9e7;
+
+
+}
+.para31{
+    font-size: 2.0rem;
+    color:#ece9e7;
+
+
+}
+.para32{
+    font-size: 2.0rem;
+    color:#ece9e7;
+
+
+}
+.para33{
+    font-size: 2.0rem;
+    color:#ece9e7;
+
+
+
+}
+.para34{
+    font-size: 2.0rem;
+    color:#ece9e7;
+
+
+
+}
+
+ .orcamento{
+     padding: 6rem 2rem;
+ 
+ 
+ }
+ .orcamentos-titulos{
+     font-size: 5.0rem;
+     color:#e1dfde;
+     
+     
+ 
+ 
+ }
+ .orcamentos-imagens1{
+     size: 800px;
+     height:300px;
+ 
+ }
+ .para10{
+     
+     font-size: 2.0rem;
+     color:#ece9e7;
+ 
+ }
+ .para11{
+     font-size: 2.0rem;
+     color:#ece9e7;
+ }
+ .para12{
+     font-size: 2.0rem;
+     color:#ece9e7;
+ }
+ .para13{
+     font-size: 2.0rem;
+     color:#ece9e7;
+ }
+ .para14{
+     font-size: 2.0rem;
+     color:#ece9e7;
+ }
+ 
+ .orcamentos-imagens2{
+     min-height: 20vh;
+     display: block;
+     margin: 0 auto;
+     size: 200px;
+     height: 150px;
+     margin: 0 auto;
+     display: block;
+     margin: 100px auto 100px auto;
+     text-align: center;
+ }
+ .whatsapp-button3{
+     float: left;
+     /* Adiciona um espaço à direita da imagem */
+      margin-left: 300px ;
+      width: 200px; /* Ajusta o tamanho da imagem *
+      float: right;
+      margin-left: 20px; /* Dá um espaço entre o conteúdo e a imagem */
+      width: 200px;
+     width: 800px; /* Ajuste o tamanho do botão */
+     height: auto;
+     border-radius: 10px; /* Se você quiser bordas arredondadas */
+     cursor: pointer; /* Faz o cursor se tornar um ponteiro ao passar o mouse */
+     transition: transform 0.3s ease; /* Efeito de transição */
+ 
+ 
+ 
+ }
+ .Servicos-titulos{
+     margin: 300px auto 100px auto;
+     text-align: center;
+     font-size: 3.5rem;
+     color:#e1dfde;
+    
+     
+ 
+ 
+ }
+ .servicos-imagens{
+    
+     width: 800px;
+     height:500px;
+ }
+ .info-servicos{
+     font-size: 2.0rem;
+     color:#fffefe;
+ 
+ 
+ }
+ .paragrafo-servicos{
+     font-size: 2.0rem;
+     color:#fffefe;
+ 
+ 
+ }
+ .para15{
+     font-size: 2.0rem;
+     color:#fffefe;
+ }
+ .para16{
+ 
+     font-size: 2.0rem;
+     color:#fffefe;
+     min-height: 30vh;
+     display: block;
+ }
+ .Regiões-de-Atendimento-titulos{
+     
+     text-align: center;
+     font-size: 3.5rem;
+     color:#e1dfde;
+     margin: 0 auto;
+     margin-bottom: 100px
+ 
+ }
+ .regiona2{
+     float: left;
+ 
+     width: 150px;  /* Ajusta a largura para 50% do tamanho original */
+     height: 50%;
+     
+    
+ }
+ .whatsapp-button2{
+     float: left;
+     /* Adiciona um espaço à direita da imagem */
+      margin-left: 150px ;
+      width: 200px; /* Ajusta o tamanho da imagem *
+      float: right;
+      margin-left: 20px; /* Dá um espaço entre o conteúdo e a imagem */
+      width: 200px;
+     width: 800px; /* Ajuste o tamanho do botão */
+     height: auto;
+     border-radius: 10px; /* Se você quiser bordas arredondadas */
+     cursor: pointer; /* Faz o cursor se tornar um ponteiro ao passar o mouse */
+     transition: transform 0.3s ease; /* Efeito de transição */
+    
+ 
+ 
+ }
+ .regional{
+     min-height: 30vh;
+     display: block;
+     margin: 0 auto;
+ 
+ }
+ .info-atendimento{
+     
+     margin-top: 200px; /* Ajuste o valor conforme necessário */
+     margin-inline: 150px;
+     text-align: center;
+     font-size:3.5rem;
+     color: #d5d839
+    
+ 
+ 
+ 
+ }
+ .Contato-title{
+     
+     font-size: 4.5rem;
+     color:#e1dfde;
+     margin: 400px auto 100px auto;
+     text-align: center;
+ 
+ 
+ }
+ .contato-imagens{
+     min-height: 20vh;
+     display: block;
+     margin: 0 auto;
+     width: 600px;
+     height:250px
+ 
+ }
+ .info-contatos{
+     text-align: center;
+     font-size:3.5rem;
+     color: #39d869
+ 
+ 
+ }
+ .whatsapp-button {
+     float: left;
+     /* Adiciona um espaço à direita da imagem */
+      margin-left: 450px ;
+      width: 200px; /* Ajusta o tamanho da imagem *
+      float: right;
+      margin-left: 20px; /* Dá um espaço entre o conteúdo e a imagem */
+      width: 200px;
+     width: 600px; /* Ajuste o tamanho do botão */
+     height: auto;
+     border-radius: 10px; /* Se você quiser bordas arredondadas */
+     cursor: pointer; /* Faz o cursor se tornar um ponteiro ao passar o mouse */
+     transition: transform 0.3s ease; /* Efeito de transição */
+ }
